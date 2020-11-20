@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mom and Pop's Shop</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header id="home" class="header">
+		<nav class="nav" role="navigation">
+			<div class="container nav-elements">
+				<ul class="navbar">
+					<li><a href="home">Home</a></li>
+					<li><a href="products">Products</a></li>
+					<li><a href="login">Login</a></li>
+					<li><a href="registerUser">New User?</a></li>
+					<li><a href="checkout">Checkout</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div class="container tagline">
+			<h1 class="headline">Welcome</h1>
+			<p>Welcome to Mom and Pop's online store!</p>
+		</div>
+	</header>
+	<section id="products" class="section">
+		<div class="container">
+	    	<h2 class="headline">Products</h2>
+	    </div>
+	    <form action="products" method="post">
+			<label>Vegetables</label> <input type="number" name="vegetables" id="vegetables"><br/>
+			<label>Baked goods</label> <input type="number" name="bakedGoods" id="bakedGoods"><br/>
+			<label>Meats</label> <input type="number" name="meats" id="meats"><br/>
+			<input type="submit" value="Checkout" id="submit">
+		</form>
+	</section>
+</body>
+</html>
